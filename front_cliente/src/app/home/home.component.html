@@ -1,0 +1,7 @@
+<div *ngFor="let noticia of noticia$" class="listaNoticias">
+  <a class="linkNoticia" (click)="abrirNoticia(noticia.id)">
+    <h4>{{ noticia.titulo }}</h4>
+
+    <p>{{ noticia.corpo }}</p>
+  </a>
+</div>
